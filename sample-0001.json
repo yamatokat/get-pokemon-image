@@ -1,0 +1,264 @@
+{
+    "pokemon": {
+        "no": "0001",
+        "sub": 0,
+        "name": "フシギダネ",
+        "sub_name": "",
+        "area": 1,
+        "omosa": "6.9",
+        "takasa": "0.7",
+        "sex": 1,
+        "bunrui": "たねポケモン",
+        "tokusei_1": 82,
+        "tokusei_2": 0,
+        "type_1": 4,
+        "type_2": 8,
+        "text_1": "うまれてから　しばらくの　あいだは　せなかの　タネから　えいようを　もらって　おおきく　そだつ。　（『ポケットモンスター ブリリアントダイヤモンド・シャイニングパール』より）",
+        "text_2": "",
+        "text_3": "",
+        "spec_hp": 3,
+        "spec_kougeki": 3,
+        "spec_bougyo": 3,
+        "spec_tokukou": 4,
+        "spec_tokubou": 4,
+        "spec_subayasa": 3,
+        "sugata_text_flg": 0,
+        "sugata_text": "",
+        "mega_flg": 0,
+        "genshi_flg": 0,
+        "kyodai_flg": 0,
+        "image_l": "https:\/\/zukan.pokemon.co.jp\/zukan-api\/up\/images\/index\/5e1db695135dd89787cfe0927d08211c.jpg",
+        "image_m": "https:\/\/zukan.pokemon.co.jp\/zukan-api\/up\/images\/index\/7b705082db2e24dd4ba25166dac84e0a.png",
+        "image_s": "https:\/\/zukan.pokemon.co.jp\/zukan-api\/up\/images\/index\/afa02eaba4c39820fc57f4e8abaeea80.png",
+        "zukan_no": "0001"
+    },
+    "abilities": [
+        {
+            "id": 82,
+            "name": "しんりょく",
+            "exp": "ＨＰが　減ったとき　くさタイプの　技の　威力が　上がる。"
+        }
+    ],
+    "evolutionsType": "1-1-1",
+    "evolutions": {
+        "pokemon": {
+            "no": "0001",
+            "sub": 0,
+            "name": "フシギダネ",
+            "sub_name": "",
+            "omosa": "6.9",
+            "takasa": "0.7",
+            "type_1": 4,
+            "type_2": 8,
+            "kyodai_flg": 0,
+            "image_m": "https:\/\/zukan.pokemon.co.jp\/zukan-api\/up\/images\/index\/7b705082db2e24dd4ba25166dac84e0a.png",
+            "image_s": "https:\/\/zukan.pokemon.co.jp\/zukan-api\/up\/images\/index\/afa02eaba4c39820fc57f4e8abaeea80.png",
+            "zukan_no": "0001"
+        },
+        "children": [
+            {
+                "pokemon": {
+                    "no": "0002",
+                    "sub": 0,
+                    "name": "フシギソウ",
+                    "sub_name": "",
+                    "omosa": "13.0",
+                    "takasa": "1.0",
+                    "type_1": 4,
+                    "type_2": 8,
+                    "kyodai_flg": 0,
+                    "image_m": "https:\/\/zukan.pokemon.co.jp\/zukan-api\/up\/images\/index\/6f8144eb4659537733b930d6a299d5a7.png",
+                    "image_s": "https:\/\/zukan.pokemon.co.jp\/zukan-api\/up\/images\/index\/f78edf4c2bc037f4b23529edfcf9ddce.png",
+                    "zukan_no": "0002"
+                },
+                "children": [
+                    {
+                        "pokemon": {
+                            "no": "0003",
+                            "sub": 0,
+                            "name": "フシギバナ",
+                            "sub_name": "",
+                            "omosa": "100.0",
+                            "takasa": "2.0",
+                            "type_1": 4,
+                            "type_2": 8,
+                            "kyodai_flg": 0,
+                            "image_m": "https:\/\/zukan.pokemon.co.jp\/zukan-api\/up\/images\/index\/ebccfe6f2ccfe2e851fd29739bf6220c.png",
+                            "image_s": "https:\/\/zukan.pokemon.co.jp\/zukan-api\/up\/images\/index\/cdce516974ae6a74e1b8b855644c5ce5.png",
+                            "zukan_no": "0003"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "groups": [],
+    "nav": {
+        "prev": [],
+        "next": {
+            "no": "0002",
+            "sub": 0,
+            "name": "フシギソウ",
+            "sub_name": "",
+            "omosa": "13.0",
+            "takasa": "1.0",
+            "type_1": 4,
+            "type_2": 8,
+            "kyodai_flg": 0,
+            "image_m": "https:\/\/zukan.pokemon.co.jp\/zukan-api\/up\/images\/index\/6f8144eb4659537733b930d6a299d5a7.png",
+            "image_s": "https:\/\/zukan.pokemon.co.jp\/zukan-api\/up\/images\/index\/f78edf4c2bc037f4b23529edfcf9ddce.png",
+            "zukan_no": "0002"
+        }
+    },
+    "news": [
+        {
+            "id": "6952",
+            "uniq": "https:\/\/www.pokemon.co.jp\/goods\/2022\/11\/221125_ph02.html",
+            "model": "goods",
+            "type": "body",
+            "title": "ポケモンがデザインされたスマホケースが登場！",
+            "body_linkwin": "0",
+            "term": "goods",
+            "ord": "12560",
+            "img_1": "https:\/\/www.pokemon.co.jp\/PostImages\/5d15020abd2aeeef46078bf8f8e30d18afe58a1b.jpg",
+            "int_4": null,
+            "pickup": "0",
+            "pokecen": "0",
+            "new": 0,
+            "start_date": "2022.11.25",
+            "full_uniq": "https:\/\/www.pokemon.co.jp\/goods\/2022\/11\/221125_ph02.html",
+            "flags": [
+                5
+            ],
+            "img_eyecatch": "https:\/\/www.pokemon.co.jp\/PostImages\/5d15020abd2aeeef46078bf8f8e30d18afe58a1b.jpg"
+        },
+        {
+            "id": "6598",
+            "uniq": "https:\/\/www.pokemon.co.jp\/goods\/2022\/08\/220805_go01.html",
+            "model": "goods",
+            "type": "body",
+            "title": "ニードルフェルトなどの手芸グッズが、ポケモンセンターに登場！",
+            "body_linkwin": "0",
+            "term": "goods",
+            "ord": "10980",
+            "img_1": "https:\/\/www.pokemon.co.jp\/PostImages\/2c21795246e88f180387ba5a3878aa69d780b53f.jpg",
+            "int_4": null,
+            "pickup": "0",
+            "pokecen": "1",
+            "new": 0,
+            "start_date": "2022.08.05",
+            "full_uniq": "https:\/\/www.pokemon.co.jp\/goods\/2022\/08\/220805_go01.html",
+            "flags": [
+                6,
+                7
+            ],
+            "img_eyecatch": "https:\/\/www.pokemon.co.jp\/PostImages\/2c21795246e88f180387ba5a3878aa69d780b53f.jpg"
+        },
+        {
+            "id": "6564",
+            "uniq": "https:\/\/www.pokemon.co.jp\/goods\/2022\/07\/220729_go01.html",
+            "model": "goods",
+            "type": "body",
+            "title": "ユートレジャーから、セレクトオーダーができる婚約指輪が登場！",
+            "body_linkwin": "0",
+            "term": "goods",
+            "ord": "10900",
+            "img_1": "https:\/\/www.pokemon.co.jp\/PostImages\/d5b2331eeacfb77c17e792af8aab0c88b40dd4fb.jpg",
+            "int_4": null,
+            "pickup": "0",
+            "pokecen": "0",
+            "new": 0,
+            "start_date": "2022.07.29",
+            "full_uniq": "https:\/\/www.pokemon.co.jp\/goods\/2022\/07\/220729_go01.html",
+            "flags": [
+                6
+            ],
+            "img_eyecatch": "https:\/\/www.pokemon.co.jp\/PostImages\/d5b2331eeacfb77c17e792af8aab0c88b40dd4fb.jpg"
+        },
+        {
+            "id": "6343",
+            "uniq": "https:\/\/www.pokemon.co.jp\/goods\/2022\/05\/220513_to05.html",
+            "model": "goods",
+            "type": "body",
+            "title": "カントー地方のポケモン4匹がブロックになって登場！",
+            "body_linkwin": "0",
+            "term": "goods",
+            "ord": "9750",
+            "img_1": "https:\/\/www.pokemon.co.jp\/PostImages\/eaa2fe58ba7c03a4090f9cdaf90e88e583d8f6a7.jpg",
+            "int_4": null,
+            "pickup": "0",
+            "pokecen": "0",
+            "new": 0,
+            "start_date": "2022.05.13",
+            "full_uniq": "https:\/\/www.pokemon.co.jp\/goods\/2022\/05\/220513_to05.html",
+            "flags": [
+                1
+            ],
+            "img_eyecatch": "https:\/\/www.pokemon.co.jp\/PostImages\/eaa2fe58ba7c03a4090f9cdaf90e88e583d8f6a7.jpg"
+        },
+        {
+            "id": "6346",
+            "uniq": "https:\/\/www.pokemon.co.jp\/goods\/2022\/05\/220513_to03.html",
+            "model": "goods",
+            "type": "body",
+            "title": "クレーンゲーム用景品　5月より登場のプライズ（BANDAI SPIRITS）",
+            "body_linkwin": "0",
+            "term": "goods",
+            "ord": "9780",
+            "img_1": "https:\/\/www.pokemon.co.jp\/PostImages\/2dd761b48ce38b2b1abd58448198cd3019ee2a71.jpg",
+            "int_4": null,
+            "pickup": "0",
+            "pokecen": "0",
+            "new": 0,
+            "start_date": "2022.05.13",
+            "full_uniq": "https:\/\/www.pokemon.co.jp\/goods\/2022\/05\/220513_to03.html",
+            "flags": [
+                1
+            ],
+            "img_eyecatch": "https:\/\/www.pokemon.co.jp\/PostImages\/2dd761b48ce38b2b1abd58448198cd3019ee2a71.jpg"
+        },
+        {
+            "id": "6314",
+            "uniq": "https:\/\/www.pokemon.co.jp\/goods\/2022\/04\/220422_to05.html",
+            "model": "goods",
+            "type": "body",
+            "title": "ポケットモンスター テラリウムコレクション10",
+            "body_linkwin": "0",
+            "term": "goods",
+            "ord": "9571",
+            "img_1": "https:\/\/www.pokemon.co.jp\/PostImages\/9a33c5f7e19dc83a1c5c6641173a245516265e06.jpg",
+            "int_4": null,
+            "pickup": "0",
+            "pokecen": "0",
+            "new": 0,
+            "start_date": "2022.04.22",
+            "full_uniq": "https:\/\/www.pokemon.co.jp\/goods\/2022\/04\/220422_to05.html",
+            "flags": [
+                1
+            ],
+            "img_eyecatch": "https:\/\/www.pokemon.co.jp\/PostImages\/9a33c5f7e19dc83a1c5c6641173a245516265e06.jpg"
+        },
+        {
+            "id": "6231",
+            "uniq": "https:\/\/www.pokemon.co.jp\/goods\/2022\/03\/220318_go03.html",
+            "model": "goods",
+            "type": "body",
+            "title": "いろいろなポケモンがデザインされた、ポーチ・バッグシリーズが登場！",
+            "body_linkwin": "0",
+            "term": "goods",
+            "ord": "9050",
+            "img_1": "https:\/\/www.pokemon.co.jp\/PostImages\/279e9635db63a90bac7f4de0d99d5fa0de0dcf3a.jpg",
+            "int_4": null,
+            "pickup": "0",
+            "pokecen": "0",
+            "new": 0,
+            "start_date": "2022.03.18",
+            "full_uniq": "https:\/\/www.pokemon.co.jp\/goods\/2022\/03\/220318_go03.html",
+            "flags": [
+                6
+            ],
+            "img_eyecatch": "https:\/\/www.pokemon.co.jp\/PostImages\/279e9635db63a90bac7f4de0d99d5fa0de0dcf3a.jpg"
+        }
+    ]
+}
