@@ -34,7 +34,7 @@ class rdict(dict):
 
 
 # Webサイトの構造上、001~809までのリストを作成
-number_list = ["{:04}".format(i) for i in range(1, 10)]
+number_list = ["{:04}".format(i) for i in range(1, 4)]
 
 # URLを全て取得
 url_list = [
@@ -45,11 +45,15 @@ url_list = [
 # M1チップのMacのユーザーエージェント
 ua = "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36"
 
-sleep_time_sec = 0.5
+# 保存場所とファイル名
+download_dir = "pokemon-image"
+
+# 0.2秒待ち
+sleep_time_sec = 0.2
 info = []
 
 for url in url_list:
-    # 0.5秒待ち
+    # 待ち
     time.sleep(sleep_time_sec)
 
     # URLのHTMLから画像のURLを取得
@@ -97,7 +101,6 @@ for url in url_list:
 
     # 画像のURL取得
     image_url = dic["image_m"]
-    image_url
 
     # ポケモンNo.取得
     number = dic["pokemon"].replace("no", "")
@@ -106,8 +109,38 @@ for url in url_list:
     name = dic["name"]
 
     # 保存場所とファイル名
-    download_dir = "pokemon-image"
-    dst_path = os.path.join(download_dir, number + name + ".png")
+    dst_path = os.path.join(download_dir, number + ".png")
 
     downloadimage(image_url, dst_path)
     print(number + name)
+
+    # 他の情報をcsv格納
+    text1 = dic["text_1"]
+    text2 = dic["text_2"]
+
+    types = dic["type_.*"]
+    type_list = ""
+    for i in types:
+        if type_list == "":
+            type_list += i
+        else:
+            type_list += "," + i
+
+    bun = dic["bunrui"]
+    toku = dic["tokusei_*"]
+    toku_list = ""
+    for i in types:
+        if toku_list == "":
+            toku_list += i
+        else:
+            toku_list += "," + i
+
+    body = [dic["takasa"], dic["omosa"]]
+
+    info.append(
+        [number, name, type_list, bun, toku_list, body[0], body[1], text1, text2]
+    )
+
+df = pd.DataFrame(info)
+df.columns = ["No.", "名前", "タイプ", "分類", "特性", "高さ", "重さ", "コメント1", "コメント2"]
+df.to_csv("Pokemon1008.csv")
