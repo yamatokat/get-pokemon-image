@@ -33,8 +33,10 @@ class rdict(dict):
         return ret
 
 
-# Webサイトの構造上、001~809までのリストを作成
-number_list = ["{:04}".format(i) for i in range(1, 4)]
+# Webサイトの構造上、001~1008までのリストを作成
+from_no = 1
+to_no = 1008
+number_list = ["{:04}".format(i) for i in range(from_no, to_no + 1)]
 
 # URLを全て取得
 url_list = [
