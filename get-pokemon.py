@@ -1,10 +1,10 @@
 from bs4 import BeautifulSoup
-import urllib.error, os
+import urllib.error, os  # noqa: E401
 import urllib.request
-import time, datetime
+import time
 import pandas as pd
-import numpy as np
 import re
+
 
 # 画像のURLを渡すとダウンロードする関数
 def downloadimage(url, dst_path):
@@ -21,21 +21,21 @@ class rdict(dict):
     def __getitem__(self, key):
         try:
             return super(rdict, self).__getitem__(key)
-        except:
+        except:  # noqa: E722
             try:
                 ret = []
                 for i in self.keys():
                     m = re.match("^" + key + "$", i)
                     if m:
                         ret.append(super(rdict, self).__getitem__(m.group(0)))
-            except:
+            except:  # noqa: E722
                 raise (KeyError(key))
         return ret
 
 
 # Webサイトの構造上、001~1008までのリストを作成
 from_no = 1
-to_no = 1008
+to_no = 10
 number_list = ["{:04}".format(i) for i in range(from_no, to_no + 1)]
 
 # URLを全て取得
